@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/lux/bootstrap.min.css"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
+    <title>My Portfolio</title>
+  </head>
+
+  <body
+    class="bg-dark"
+  >
+    <!-- navbar desktop -->
+    <div class="desktop-container" id="is-desk">
+      <header class="header-desk">
+        <h1>Meowgi.</h1>
+      </header>
+      <nav class="nav-desk">
+        <ul>
+          <li>
+            <a class="nav-link" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link current" href="contact.html"
+              >Contact<span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- navbar mobile -->
+    <div id="is-mob">
+      <header class="header-mob">
+        <h1>Meowgi.</h1>
+      </header>
+      <nav class="nav-mob">
+        <ul>
+          <li>
+            <a class="nav-link" href="index.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link current" href="contact.html"
+              >Contact<span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <br /><br /><br /><br />
+
+    <article class="container-fluid">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-sm-12 col-md-10">
+          <div id="contact" class="jumbotron rounded">
+            <h1 class="display-3">Contact.</h1>
+            <hr class="my-4" />
+            <div class="row">
+              <div class="col-sm-6">
+                <form id="contact-form">
+                  <fieldset>
+                    <legend>Let me know what you think.</legend>
+                    <div class="form-group">
+                      <div class="form-group">
+                        <label for="name">Name</label>
+                        <input
+                          type="text"
+                          name="name"
+                          class="form-control"
+                          id="name"
+                          placeholder="Name"
+                          style='background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACIUlEQVQ4EX2TOYhTURSG87IMihDsjGghBhFBmHFDHLWwSqcikk4RRKJgk0KL7C8bMpWpZtIqNkEUl1ZCgs0wOo0SxiLMDApWlgOPrH7/5b2QkYwX7jvn/uc//zl3edZ4PPbNGvF4fC4ajR5VrNvt/mo0Gr1ZPOtfgWw2e9Lv9+chX7cs64CS4Oxg3o9GI7tUKv0Q5o1dAiTfCgQCLwnOkfQOu+oSLyJ2A783HA7vIPLGxX0TgVwud4HKn0nc7Pf7N6vV6oZHkkX8FPG3uMfgXC0Wi2vCg/poUKGGcagQI3k7k8mcp5slcGswGDwpl8tfwGJg3xB6Dvey8vz6oH4C3iXcFYjbwiDeo1KafafkC3NjK7iL5ESFGQEUF7Sg+ifZdDp9GnMF/KGmfBdT2HCwZ7TwtrBPC7rQaav6Iv48rqZwg+F+p8hOMBj0IbxfMdMBrW5pAVGV/ztINByENkU0t5BIJEKRSOQ3Aj+Z57iFs1R5NK3EQS6HQqF1zmQdzpFWq3W42WwOTAf1er1PF2USFlC+qxMvFAr3HcexWX+QX6lUvsKpkTyPSEXJkw6MQ4S38Ljdbi8rmM/nY+CvgNcQqdH6U/xrYK9t244jZv6ByUOSiDdIfgBZ12U6dHEHu9TpdIr8F0OP692CtzaW/a6y3y0Wx5kbFHvGuXzkgf0xhKnPzA4UTyaTB8Ph8AvcHi3fnsrZ7Wore02YViqVOrRXXPhfqP8j6MYlawoAAAAASUVORK5CYII="); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;'
+                        />
+                      </div>
+                      <label for="email">Email address</label>
+                      <input
+                        type="email"
+                        name="email"
+                        class="form-control"
+                        id="email"
+                        aria-describedby="emailHelp"
+                        placeholder="Enter email"
+                        style='background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABHklEQVQ4EaVTO26DQBD1ohQWaS2lg9JybZ+AK7hNwx2oIoVf4UPQ0Lj1FdKktevIpel8AKNUkDcWMxpgSaIEaTVv3sx7uztiTdu2s/98DywOw3Dued4Who/M2aIx5lZV1aEsy0+qiwHELyi+Ytl0PQ69SxAxkWIA4RMRTdNsKE59juMcuZd6xIAFeZ6fGCdJ8kY4y7KAuTRNGd7jyEBXsdOPE3a0QGPsniOnnYMO67LgSQN9T41F2QGrQRRFCwyzoIF2qyBuKKbcOgPXdVeY9rMWgNsjf9ccYesJhk3f5dYT1HX9gR0LLQR30TnjkUEcx2uIuS4RnI+aj6sJR0AM8AaumPaM/rRehyWhXqbFAA9kh3/8/NvHxAYGAsZ/il8IalkCLBfNVAAAAABJRU5ErkJggg=="); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;'
+                      />
+                      <small id="emailHelp" class="form-text text-muted"
+                        >We'll never share your email with anyone else.</small
+                      >
+                    </div>
+                    <div class="form-group">
+                      <label for="region">Region</label>
+                      <select class="form-control" id="region">
+                        <option>Europe</option>
+                        <option>North America</option>
+                        <option>Africa</option>
+                        <option>Australia</option>
+                        <option>Caribbean</option>
+                        <option>Central America</option>
+                        <option>Russia</option>
+                        <option>South America</option>
+                        <option>Southeast Asia</option>
+                        <option>West Asia</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="comments">Comments</label>
+                      <textarea
+                        class="form-control"
+                        id="comments"
+                        rows="3"
+                      ></textarea>
+                    </div>
+                    <button
+                      id="submit-form"
+                      type="submit"
+                      class="btn btn-primary"
+                    >
+                      Submit
+                    </button>
+                  </fieldset>
+                </form>
+              </div>
+              <div class="col-sm-2"></div>
+              <figure class="col-sm-4">
+                <img
+                  class="img-fluid rounded"
+                  src="assets/images/zappa-da-rappa.jpg"
+                  alt="Image of Zappa the Cat looking left in sunglasses"
+                />
+              </figure>
+            </div>
+          </div>
+          <!--Closing Jumbotron-->
+        </div>
+        <!--Closing col-->
+        <div class="col-md-1"></div>
+      </div>
+      <!--Closing row-->
+    </article>
+    <!--Closing container-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
