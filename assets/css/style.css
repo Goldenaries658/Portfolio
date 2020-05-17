@@ -91,26 +91,6 @@ body {
   background: #af292960;
 }
 
-/* Navbar media queries */
-@media screen and (min-width: 768px) {
-  #is-mob {
-    display: none;
-  }
-  #is-desk {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  #is-mob {
-    display: unset;
-  }
-  #is-desk {
-    display: none;
-  }
-}
-
 /* Page title sizing */
 .display-3 {
   font-size: 3rem;
@@ -123,6 +103,11 @@ body {
 
 #user-profile {
   padding: 0 30px 0 30px;
+}
+
+.bio-section {
+  display: block;
+  padding: inherit;
 }
 
 #experience-list > ul {
@@ -149,4 +134,26 @@ body {
 
 #contact > .row > div {
   padding-bottom: 20px;
+}
+
+/* Media queries */
+@media screen and (min-width: 768px) {
+  /* Changing Nav to desktop */
+  #is-mob {
+    display: none;
+  }
+  #is-desk {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Changing Nav to mobile */
+  #is-mob {
+    display: unset;
+  }
+  #is-desk {
+    display: none;
+  }
 }
