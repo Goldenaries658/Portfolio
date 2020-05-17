@@ -121,20 +121,20 @@ body {
   padding: 0 30px 0 30px;
 }
 
-#passions > ul {
+#experience-list > ul {
   padding: 0 20% 20% 0;
 }
 
-#passions > ul > li {
+#experience-list > ul > li {
   background: #f7f7f9;
   padding-left: 0;
 }
 
-#inspiration > ul {
+#learning-list > ul {
   padding: 0 20% 10% 0;
 }
 
-#inspiration > ul > li {
+#learning-list > ul > li {
   background: #f7f7f9;
   padding-left: 0;
 }
