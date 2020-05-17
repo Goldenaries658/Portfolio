@@ -110,13 +110,14 @@ body {
   padding: inherit;
 }
 
-.bio-section i {
+.bio-section a {
   font-size: 5rem;
   margin: 0 4%;
 }
 
-.bio-section i:hover {
+.bio-section a:hover {
   color: #af2929;
+  text-decoration: none;
 }
 
 #experience-list > ul {
@@ -156,8 +157,8 @@ body {
     justify-content: space-between;
   }
 
-  .bio-section i {
-    margin: 0 8%;
+  .bio-section a {
+    margin: 13% 10%;
   }
 }
 
