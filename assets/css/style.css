@@ -1,10 +1,12 @@
 body {
-  background-image: url(../images/bg-pattern.jpg);
+  background: #212121;
+  background-image: url(../images/topography.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
+
 
 /* Mobile navbar section */
 #mobile-navbar {
