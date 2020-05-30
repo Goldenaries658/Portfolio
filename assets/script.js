@@ -4,8 +4,8 @@ const pageSwap = (newPage, oldPage) => {
   $(`.nav-${oldPage}`).removeClass('current');
 
   // Changing page
-    $(`#${newPage}-page`).show(500);
-    $(`#${oldPage}-page`).hide(500);
+  $(`#${newPage}-page`).show(500);
+  $(`#${oldPage}-page`).hide(500);
 };
 
 $(() => {
