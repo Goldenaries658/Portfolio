@@ -5,11 +5,11 @@ const pageSwap = (newPage, oldPage) => {
 
   // Changing page
   if (newPage === 'nav-about-me') {
-    $('#about-me-page').show('fast');
-    $('#portfolio-page').hide('fast');
+    $('#about-me-page').show(500);
+    $('#portfolio-page').hide(500);
   } else {
-    $('#about-me-page').hide('fast');
-    $('#portfolio-page').show('fast');
+    $('#about-me-page').hide(500);
+    $('#portfolio-page').show(500);
   }
 };
 
